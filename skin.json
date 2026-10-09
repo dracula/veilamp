@@ -1,0 +1,77 @@
+{
+  "name": "Dracula",
+  "author": "mauvehed",
+  "description": "The Dracula color scheme (draculatheme.com) for veilamp. Purple accent by default, with Cyan, Pink and Green variants.",
+  "vars": {
+    "--bg-0": "#21222c",
+    "--bg-1": "#282a36",
+    "--bg-2": "#343746",
+    "--glass": "rgba(68, 71, 90, 0.45)",
+    "--glass-strong": "rgba(52, 55, 70, 0.78)",
+    "--glass-border": "rgba(98, 114, 164, 0.35)",
+    "--glass-border-bright": "rgba(189, 147, 249, 0.6)",
+    "--app-bg": "linear-gradient(160deg, #282a36 0%, #21222c 100%)",
+
+    "--cyan": "#bd93f9",
+    "--cyan-dim": "#7b5fb0",
+    "--magenta": "#ff79c6",
+    "--magenta-dim": "#b0528a",
+    "--amber": "#ffb86c",
+    "--amber-bright": "#f1fa8c",
+    "--accent-grad": "linear-gradient(135deg, #bd93f9 0%, #ff79c6 100%)",
+    "--accent-grad-h": "linear-gradient(90deg, #bd93f9 0%, #ff79c6 100%)",
+    "--glow-cyan": "0 0 18px rgba(189, 147, 249, 0.4)",
+    "--glow-magenta": "0 0 18px rgba(255, 121, 198, 0.4)",
+
+    "--text": "#f8f8f2",
+    "--text-dim": "#a9b1d6",
+    "--text-faint": "#6272a4",
+    "--on-accent": "#282a36"
+  },
+  "variants": [
+    { "name": "Purple" },
+    {
+      "name": "Cyan",
+      "vars": {
+        "--cyan": "#8be9fd",
+        "--cyan-dim": "#5aa3b3",
+        "--magenta": "#bd93f9",
+        "--magenta-dim": "#7b5fb0",
+        "--glass-border-bright": "rgba(139, 233, 253, 0.6)",
+        "--accent-grad": "linear-gradient(135deg, #8be9fd 0%, #bd93f9 100%)",
+        "--accent-grad-h": "linear-gradient(90deg, #8be9fd 0%, #bd93f9 100%)",
+        "--glow-cyan": "0 0 18px rgba(139, 233, 253, 0.4)",
+        "--glow-magenta": "0 0 18px rgba(189, 147, 249, 0.4)"
+      }
+    },
+    {
+      "name": "Pink",
+      "vars": {
+        "--cyan": "#ff79c6",
+        "--cyan-dim": "#b0528a",
+        "--magenta": "#bd93f9",
+        "--magenta-dim": "#7b5fb0",
+        "--glass-border-bright": "rgba(255, 121, 198, 0.6)",
+        "--accent-grad": "linear-gradient(135deg, #ff79c6 0%, #bd93f9 100%)",
+        "--accent-grad-h": "linear-gradient(90deg, #ff79c6 0%, #bd93f9 100%)",
+        "--glow-cyan": "0 0 18px rgba(255, 121, 198, 0.4)",
+        "--glow-magenta": "0 0 18px rgba(189, 147, 249, 0.4)"
+      }
+    },
+    {
+      "name": "Green",
+      "vars": {
+        "--cyan": "#50fa7b",
+        "--cyan-dim": "#38ad56",
+        "--magenta": "#8be9fd",
+        "--magenta-dim": "#5aa3b3",
+        "--glass-border-bright": "rgba(80, 250, 123, 0.6)",
+        "--accent-grad": "linear-gradient(135deg, #50fa7b 0%, #8be9fd 100%)",
+        "--accent-grad-h": "linear-gradient(90deg, #50fa7b 0%, #8be9fd 100%)",
+        "--glow-cyan": "0 0 18px rgba(80, 250, 123, 0.4)",
+        "--glow-magenta": "0 0 18px rgba(139, 233, 253, 0.4)"
+      }
+    }
+  ],
+  "css": ".text-input::placeholder { color: #6272a4; } ::selection { background: #44475a; color: #f8f8f2; }"
+}
